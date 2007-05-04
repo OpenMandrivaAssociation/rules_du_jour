@@ -1,6 +1,6 @@
 Summary:	This script updates SpamAssassin RuleSet files from the internet
 Name:		rules_du_jour
-Version:	1.29b
+Version:	1.30
 Release:	%mkrel 1
 License:	GPL
 Group:		Networking/Mail
@@ -52,5 +52,3 @@ install -m0644 RulesDuJour %{buildroot}%{_sysconfdir}/sysconfig/
 %attr(0755,root,root) %{_sbindir}/%{name}
 %attr(0755,root,root) %{_sysconfdir}/mail/spamassassin/RulesDuJour/%{name}
 %attr(0755,root,root) %{_sysconfdir}/cron.daily/%{name}
-
-
