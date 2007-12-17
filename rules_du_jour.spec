@@ -11,7 +11,6 @@ Requires:	spamassassin
 Requires:	spamassassin-spamd
 Requires:	wget
 BuildArch:	noarch
-Buildroot:	%{_tmppath}/%{name}-%{version}-root
 
 %description
 This script updates SpamAssassin RuleSet files from the internet.
