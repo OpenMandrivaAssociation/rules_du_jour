@@ -1,7 +1,7 @@
 Summary:	This script updates SpamAssassin RuleSet files from the internet
 Name:		rules_du_jour
 Version:	1.30
-Release:	%mkrel 3
+Release:	%mkrel 4
 License:	GPL
 Group:		Networking/Mail
 URL:		http://sandgnat.com/rdj/rules_du_jour
