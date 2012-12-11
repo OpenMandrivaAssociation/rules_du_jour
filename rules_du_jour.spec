@@ -52,3 +52,45 @@ install -m0644 RulesDuJour %{buildroot}%{_sysconfdir}/sysconfig/
 %attr(0755,root,root) %{_sbindir}/%{name}
 %attr(0755,root,root) %{_sysconfdir}/mail/spamassassin/RulesDuJour/%{name}
 %attr(0755,root,root) %{_sysconfdir}/cron.daily/%{name}
+
+
+%changelog
+* Tue Sep 08 2009 Thierry Vignaud <tvignaud@mandriva.com> 1.30-4mdv2010.0
++ Revision: 433596
+- rebuild
+
+* Wed Jul 23 2008 Thierry Vignaud <tvignaud@mandriva.com> 1.30-3mdv2009.0
++ Revision: 242633
+- rebuild
+- kill re-definition of %%buildroot on Pixel's request
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+* Fri May 04 2007 Oden Eriksson <oeriksson@mandriva.com> 1.30-1mdv2008.0
++ Revision: 22318
+- 1.30
+
+
+* Thu Dec 07 2006 Oden Eriksson <oeriksson@mandriva.com> 1.29b-1mdv2007.0
++ Revision: 91959
+- Import rules_du_jour
+
+* Thu Dec 07 2006 Oden Eriksson <oeriksson@mandriva.com> 1.29b-1mdv2007.1
+- 1.29b
+
+* Sun Aug 13 2006 Oden Eriksson <oeriksson@mandriva.com> 1.28-1mdv2007.0
+- 1.28
+
+* Sat Nov 05 2005 Oden Eriksson <oeriksson@mandriva.com> 1.27-1mdk
+- 1.27
+
+* Tue Jun 14 2005 Oden Eriksson <oeriksson@mandriva.com> 1.21-1mdk
+- 1.21
+
+* Tue Aug 31 2004 Oden Eriksson <oeriksson@mandrakesoft.com> 1.18-2mdk
+- fix deps
+
+* Tue Aug 31 2004 Oden Eriksson <oeriksson@mandrakesoft.com> 1.18-1mdk
+- initial mandrake package
+
