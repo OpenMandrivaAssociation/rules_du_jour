@@ -4,7 +4,7 @@ Version:	1.30
 Release:	5
 License:	GPL
 Group:		Networking/Mail
-URL:		http://sandgnat.com/rdj/rules_du_jour
+URL:		https://sandgnat.com/rdj/rules_du_jour
 Source0:	http://sandgnat.com/rdj/rules_du_jour
 Requires:	curl
 Requires:	spamassassin
